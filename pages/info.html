@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>GraphQL: Country Info API</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="//cdn.jsdelivr.net/npm/graphql-playground-react/build/favicon.png" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: repeating-linear-gradient(180deg, #072227 0%, #ffffff 74%);
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    footer h6 {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .main .container {
+        color: #ffffff;
+        min-height: 95vh;
+    }
+
+    .main .container h3,
+    p {
+        padding-top: 50px;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="container text-center">
+            <h3><b>GraphQL Based Country Api</b></h3>
+            <p>The API consists of datas like code, isocode, population, area and GDP.<br>
+                Only querying is available at this time,no mutations.<br><br>
+                Note: If you plan to use this API,make <u>limited no. of requests</u>.<br>
+                Ids start from 1 to 241,see the source code <b><u><a href="https://github.com/jayantur13/GraphQL-Country-API" style="text-decoration: none;color: rgb(255,0,0);">here</a></u></b>
+            </p>
+            <button class="btn btn-dark" onclick="redirect()">Continue to Playground <i class="fa fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer container-fluid text-center">
+        <h6><i class="fa fa-exclamation-triangle"></i> Please use Desktop/Laptop only for Api Playground</h6>
+        <h6><i class="fa fa-copyright"></i> Jayant Navrange, 2022</h6>
+    </footer>
+    <script type="text/javascript">
+        function redirect() {
+            window.location.replace("/api")
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
