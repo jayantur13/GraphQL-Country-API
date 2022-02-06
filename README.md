@@ -1,5 +1,8 @@
 <p align="center"><img src="https://pasteimg.com/images/2022/02/04/kindpng_5444695.th.png"><br/><h1 align="center">GraphQL Country API</h1></p>
-<p align="center"><a href="https://gqlc.herokuapp.com"><img src="https://img.shields.io/website.svg?url=https%3A%2F%2Fgqlc.herokuapp.com?color=blue&down_color=red&down_message=Offline&label=GraphQL Playground&logo=graphql&logoColor=pink&up_color=green&up_message=Online"></a> <a href="https://github.com/jayantur13/GraphQL-Country-API/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a> <a href="https://github.com/jayantur13/GraphQL-Country-API/blob/master/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Code%20Of%20Code-Please follow!-green"></a></p>
+<p align="center">
+<a href="https://gqlc.herokuapp.com"><img src="https://img.shields.io/website.svg?url=https%3A%2F%2Fgqlc.herokuapp.com?color=blue&down_color=red&down_message=Offline&label=GraphQL%20Playground&logo=graphql&logoColor=pink&up_color=green&up_message=Online"></a> 
+<a href="https://github.com/jayantur13/GraphQL-Country-API/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a> 
+<a href="https://github.com/jayantur13/GraphQL-Country-API/blob/master/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Code%20Of%20Conduct-Please follow!-green"></a></p>
 
 This api provides data like code, isocode, area, population and GDP,though the data is collected from a reliable source its accuracy is not gauranteed.So, watch out and make contribute if neccessary with uptodate data by following the Code Of Conduct.Also, read the to-do to know what are the tasks remaining in the project.
 
