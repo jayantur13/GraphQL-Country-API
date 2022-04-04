@@ -25,7 +25,7 @@ This api provides data like code, isocode, area, population and GDP,though the d
 `"devStart": "nodemon server.js"`
 
 # Querying using GraphQL
-## Example 1. Get data of all countries
+## Example 1. Returns a list of all countries
 ```
 {
     getcountries {
@@ -40,10 +40,10 @@ This api provides data like code, isocode, area, population and GDP,though the d
 }
 ```
 
-## Example 2. Get data of a single country
+## Example 2. Get data of a single country using id (ID - From 1 to 241)
 ```
 {
-    getcountry(id: ID) {
+    getcountrywid(id: ID) {
       id
       CountryName
       CountryCode
@@ -52,7 +52,21 @@ This api provides data like code, isocode, area, population and GDP,though the d
       AreaKmSq
       GDPUSD
     }
-   ID - A valid id from 1 to 241
+}
+```
+
+## Example 2. Get data of a single country using name (CountryName like India)
+```
+{
+    getcountrywname(CountryName:"India") {
+        id
+        CountryName
+        CountryCode
+        IsoCode
+        Population
+        AreaKmSq
+        GDPUSD
+    }
 }
 ```
 
@@ -62,8 +76,9 @@ This api provides data like code, isocode, area, population and GDP,though the d
 
 ## To Do
 - [x] Update the project readme
-- [ ] Switch to GraphiQL Playground
-- [ ] Change the query by ID to query by country name
+- [x] Switch to GraphiQL Playground
+- [x] Change the query by ID to query by country name (Both available)
+- [ ] Themes (once made available by Graphiql)
 
 
 ## Contribute the project 
@@ -96,6 +111,6 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-#### Last Updated: 04-02-22
+#### Last Updated: 04-04-22
 
 
